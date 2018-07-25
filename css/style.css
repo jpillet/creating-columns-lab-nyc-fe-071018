@@ -8,6 +8,9 @@ body, html {
   background-color: #666;
 }
 
+
+
+
 .container, h1 {
   width: 80%;
   max-width: 600px;
@@ -27,20 +30,35 @@ img:hover {
   transition-duration: 1s;
   transform: scale(1.05);
 }
+.column{
+  width: 20%;
+}
+
+.small{
+  
+}
+
+.med{
+  
+}
 
 .amiable {
-  border: 1px solid #22aa44;
+border: 1px solid #22aa44;
   box-shadow:  -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
   background-color: #44cc66;
 }
 
 .indifferent {
+  .column: .small, width=50%;
+  
   border: 1px solid #aaaa00;
   box-shadow:  -1px 1px #aaaa00, -2px 2px #aaaa00, -3px 3px #aaaa00, -4px 4px #aaaa00, -5px 5px #aaaa00;
   background-color: #dddd22;
 }
 
 .dubious {
+   .column
+   .large, width =50%
   border: 1px solid #aa2222;
   box-shadow: -1px 1px #aa2222, -2px 2px #aa2222, -3px 3px #aa2222, -4px 4px #aa2222, -5px 5px #aa2222;
   background-color: #dd4444;
